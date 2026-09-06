@@ -3,12 +3,9 @@ close all;
 clear all;
 
 %% Add paths robustly
-<<<<<<< HEAD
-addpath('./integrators','./phipmsimuliom');
-=======
+
 addpath('../integrators')
 addpath('../phipmsimuliom')
->>>>>>> e6f3a98 (Update numerical examples and reference solution codes)
 
 %% ========================================================================
 % 1. Space and time intervals
@@ -240,12 +237,9 @@ xlabel('Number of time steps');
 ylabel('Error');
 
 print('ExpH_HocOst_Order','-depsc');
-<<<<<<< HEAD
-=======
 
 rmpath('../integrators')
 rmpath('../phipmsimuliom')
->>>>>>> e6f3a98 (Update numerical examples and reference solution codes)
 
 %% ========================================================================
 % Local nonlinear function
